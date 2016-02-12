@@ -12,7 +12,7 @@ For the first compile, The project must be built with csc.exe.
 Example:
 `C:\Windows\Microsoft.NET\Framework\[version]\csc.exe /target:library
 /out:build\CSBuild.dll /reference:"[Path to Powershell
-References]\Windows.Management.Automation" .\src\*.cs`
+References]\Windows.Management.Automation.dll" .\src\*.cs`
 Where `[version]` is the .Net Framework version of choice and`[Path to
 Powershell References]` is where your Powershell .Net libraries reside.
 
